@@ -1,8 +1,9 @@
 * {
-	font-family: sans-serif;
+	font-family: "Century Gothic";
 	margin: 0;
 	padding: 0;
 	background-color: #231f20;
+	letter-spacing: 2px;
 }
 
 body {
@@ -69,6 +70,7 @@ body {
 .profile-header {
 	font-size: 32px;
 	text-transform: uppercase;
+	letter-spacing: 5px;
 }
 
 .profile-img {
@@ -188,3 +190,58 @@ body {
 }
 
 /* Education section */
+.education {
+	flex: 0 0 420px;
+}
+
+.education-container {
+	justify-content: space-between;
+}
+
+/* Courses and certifications */
+.courses-certificate-container {
+	gap: 15px;
+	flex: 0 0 420px;
+}
+
+.html-css-certificate {
+	position: relative;
+	width: 50%;
+	height: auto;
+}
+
+.html-css-image {
+	opacity: 1;
+	display: block;
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.html-css-description {
+	box-sizing: border-box;
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px;
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.html-css-certificate:hover .html-css-image {
+	opacity: 1;
+}
+
+.html-css-certificate:hover .html-css-description {
+	opacity: 0.9;
+}
+
+.certificate-description {
+	padding: 25px;
+}
