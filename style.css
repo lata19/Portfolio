@@ -16,6 +16,10 @@ body {
 	margin-top: 25px;
 }
 
+.section-container {
+	margin: 50px;
+}
+
 .header-2 {
 	font-size: 24px;
 	text-align: center;
@@ -63,10 +67,6 @@ body {
 }
 
 /* Home section */
-.profile {
-	margin: 50px;
-}
-
 .profile-header {
 	font-size: 32px;
 	text-transform: uppercase;
@@ -157,10 +157,6 @@ body {
 }
 
 /* About me section */
-.about-me {
-	margin-top: 25px;
-}
-
 .about-me-headline {
 	font-size: 18px;
 	text-align: center;
@@ -176,11 +172,6 @@ body {
 }
 
 /* Work experience section */
-
-.section-container {
-	margin: 50px;
-}
-
 .job {
 	flex: 0 0 420px;
 }
@@ -198,7 +189,7 @@ body {
 	justify-content: space-between;
 }
 
-/* Courses and certifications */
+/* Courses and certifications section */
 .courses-certificate-container {
 	gap: 15px;
 }
@@ -287,4 +278,52 @@ body {
 
 .certificate-description {
 	padding: 25px;
+}
+
+/* Skills section */
+.skills-container {
+	display: grid;
+}
+
+.skill {
+	display: grid;
+	grid-template-columns: 150px max-content;
+	justify-content: center;
+	margin-top: 25px;
+	gap: 10px;
+}
+
+.progress-bar {
+	border: 1px solid #d1ca98;
+	width: 1000px;
+	border-radius: 15px;
+	/* background-color: #d1ca98; */
+}
+
+.html-progress,
+.css-progress,
+.js-progress,
+.python-progress,
+.ac-progress {
+	border: 1px solid #edbf85;
+	background-color: #edbf85;
+	border-radius: 15px;
+	color: #231f20;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.html-progress {
+	width: 750px;
+}
+
+.css-progress,
+.python-progress {
+	width: 600px;
+}
+
+.js-progress,
+.ac-progress {
+	width: 500px;
 }
