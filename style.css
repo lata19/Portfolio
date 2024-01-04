@@ -371,3 +371,11 @@ body {
 	width: ;
 	height: 300px;
 }
+
+/* Footer */
+.footer {
+	padding: 15px;
+	background-color: #edbf85;
+	color: #231f20;
+	text-align: center;
+}
