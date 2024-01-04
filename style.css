@@ -201,13 +201,13 @@ body {
 /* Courses and certifications */
 .courses-certificate-container {
 	gap: 15px;
-	flex: 0 0 420px;
 }
 
 .html-css-certificate {
 	position: relative;
 	width: 50%;
 	height: auto;
+	flex: 0 0 400px;
 }
 
 .html-css-image {
@@ -239,6 +239,49 @@ body {
 }
 
 .html-css-certificate:hover .html-css-description {
+	opacity: 0.9;
+}
+
+.certificate-description {
+	padding: 25px;
+}
+
+.python-certificate {
+	position: relative;
+	width: 50%;
+	height: auto;
+	flex: 0 0 400px;
+}
+
+.python-image {
+	opacity: 1;
+	display: block;
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.python-description {
+	box-sizing: border-box;
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px;
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.python-certificate:hover .python-image {
+	opacity: 1;
+}
+
+.python-certificate:hover .python-description {
 	opacity: 0.9;
 }
 

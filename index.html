@@ -15,28 +15,28 @@
 		<nav class="navigation">
 			<ul class="nav-bar">
 				<li class="nav-bar-item">
-					<a href="#" class="nav-bar-link">Početna</a>
+					<a href="#home" class="nav-bar-link">Početna</a>
 				</li>
 				<li class="nav-bar-item">
-					<a href="#" class="nav-bar-link">O meni</a>
+					<a href="#about-me" class="nav-bar-link">O meni</a>
 				</li>
 				<li class="nav-bar-item">
-					<a href="#" class="nav-bar-link">Radno iskustvo</a>
+					<a href="#work-experience" class="nav-bar-link">Radno iskustvo</a>
 				</li>
 				<li class="nav-bar-item">
-					<a href="#" class="nav-bar-link">Obrazovanje</a>
+					<a href="#education" class="nav-bar-link">Obrazovanje</a>
 				</li>
 				<li class="nav-bar-item">
-					<a href="#" class="nav-bar-link">Vještine</a>
+					<a href="#skills" class="nav-bar-link">Vještine</a>
 				</li>
 				<li class="nav-bar-item">
-					<a href="#" class="nav-bar-link">Projekti</a>
+					<a href="#projects" class="nav-bar-link">Projekti</a>
 				</li>
 			</ul>
 		</nav>
 
 		<!--  Home section  -->
-		<section class="profile">
+		<section id="home" class="profile">
 			<h1 class="header-2 profile-header">Nikola Latinčić</h1>
 			<img
 				src="images/profile-img.png"
@@ -62,7 +62,7 @@
 					aria-label="Instagram"
 				></a>
 				<a
-					href="#Linkedin"
+					href="https://www.linkedin.com/in/latincicnikola/"
 					class="fa fa-linkedin"
 					target="_blank"
 					title="LinkedIn"
@@ -79,7 +79,7 @@
 		</section>
 
 		<!--  About me section  -->
-		<section class="about-me">
+		<section id="about-me" class="about-me">
 			<h2 class="header-2 about-me-header">O meni</h2>
 			<p class="about-me-headline">
 				Magistar inženjer prometa s entuzijazmom za programiranje. Bez radnog
@@ -100,7 +100,7 @@
 		</section>
 
 		<!--  Work experience section  -->
-		<section class="section-container">
+		<section id="work-experience" class="section-container">
 			<h2 class="header-2 work-experience-header">Radno iskustvo</h2>
 			<div class="container work-container">
 				<div class="job">
@@ -147,7 +147,7 @@
 		</section>
 
 		<!--  Education section  -->
-		<section class="section-container">
+		<section id="education" class="section-container">
 			<h2 class="header-2 education-header">Obrazovanje</h2>
 			<div class="container education-container">
 				<div class="education">
@@ -200,13 +200,10 @@
 						alt="HTML&CSS Certificate"
 						class="html-css-image"
 					/>
+					#TODO staviti sliku kada zavrsim
 					<div class="html-css-description">
 						<h3 class="header-3">HTML & CSS</h3>
 						<h4 class="header-4">Udemy</h4>
-						<a
-							href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
-							>Build Responsive Real-World Websites with HTML and CSS</a
-						>
 						<ul class="certificate-description">
 							<li>Osnove HTML-a</li>
 							<li>Osnove CSS-a</li>
@@ -217,35 +214,42 @@
 					</div>
 				</div>
 				<div class="python-certificate">
-					<h3 class="header-3">Python Developer</h3>
-					<h4 class="header-4">Visoko učilište Algebra</h4>
-					<ul class="description">
-						<li>Završen tečaj programiranja u Pythonu</li>
-						<li>Podaci s Interneta (Web API)</li>
-						<li>Baze podataka (SQLite3, SQLAlchemy)</li>
-						<li>
-							Sposobnost izrade grafičkih korisničkih sučelja pomoću Tkinter-a
-						</li>
-						<li>
-							Pandas, Numpy i Matplotlib za strukturiranje, analizu, obradu i
-							vizualizaciju podataka
-						</li>
-						<li>
-							Vještina uređivanja i obrade fotografija pomoću PIL-a (Python
-							Imaging Library)
-						</li>
-					</ul>
+					<img
+						src="images/python-certificate.jpg"
+						alt="Python Certificate"
+						class="python-image"
+					/>
+					<div class="python-description">
+						<h3 class="header-3">Python Developer</h3>
+						<h4 class="header-4">Visoko učilište Algebra</h4>
+						<ul class="certificate-description">
+							<li>Završen tečaj programiranja u Pythonu</li>
+							<li>Podaci s Interneta (Web API)</li>
+							<li>Baze podataka (SQLite3, SQLAlchemy)</li>
+							<li>
+								Sposobnost izrade grafičkih korisničkih sučelja pomoću Tkinter-a
+							</li>
+							<li>
+								Pandas, Numpy i Matplotlib za strukturiranje, analizu, obradu i
+								vizualizaciju podataka
+							</li>
+							<li>
+								Vještina uređivanja i obrade fotografija pomoću PIL-a (Python
+								Imaging Library)
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<!--  Skills section  -->
-		<section>
+		<section id="skills">
 			<h2 class="header-2 skills-header">Vještine</h2>
 		</section>
 
 		<!--  Projects section  -->
-		<section>
+		<section id="projects">
 			<h2 class="header-2 projects-header">Projekti</h2>
 		</section>
 
