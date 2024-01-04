@@ -62,8 +62,8 @@ body {
 
 .nav-bar-link:hover,
 .nav-bar-link:active {
-	color: #d1ca98;
-	text-decoration: underline;
+	color: #edbf85;
+	/* text-decoration: underline; */
 }
 
 /* Home section */
@@ -71,6 +71,7 @@ body {
 	font-size: 32px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	text-align: center;
 }
 
 .profile-img {
@@ -100,7 +101,7 @@ body {
 
 .contact-button:hover,
 .contact-button:active {
-	background-color: #d1ca98;
+	background-color: #edbf85;
 	color: #231f20;
 	font-weight: bold;
 }
@@ -126,7 +127,7 @@ body {
 .fa:hover,
 .fa:active {
 	border-radius: 12px;
-	color: #fff;
+	color: #edbf85;
 }
 
 .fa-facebook:hover,
@@ -326,4 +327,47 @@ body {
 .js-progress,
 .ac-progress {
 	width: 500px;
+}
+
+/* Projects section */
+.projects-container {
+	flex-wrap: nowrap;
+}
+.single-project-container {
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.invitation-img {
+	width: 500px;
+	height: 300px;
+}
+
+.project-name {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.project-link {
+	margin-top: 5px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #edbf85;
+}
+
+.project-link:hover,
+.project-link:active {
+	color: #edbf85;
+	text-decoration: underline;
+}
+
+.project-link:visited,
+.project-link:link {
+	color: #edbf85;
+}
+
+.py-flora-posude-img {
+	width: ;
+	height: 300px;
 }
